@@ -5,4 +5,5 @@
 # Initialise and install dependencies needed in the folder "server
 
 > npm init -y
+
 > npm i express nodemon sqlite3 sequelize dotenv
