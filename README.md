@@ -6,4 +6,4 @@
 
 > npm init -y
 
-> npm i express nodemon sqlite3 sequelize dotenv
+> npm install
