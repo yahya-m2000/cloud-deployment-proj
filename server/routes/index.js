@@ -1,3 +1,4 @@
 module.exports = {
-  message: require("./data.route"),
+  message: require("./message.route"),
+  user: require("./user.route"),
 };
