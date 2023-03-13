@@ -5,9 +5,11 @@ const { User } = require("../models/User");
 // GET all Users
 router.get("/", async (req, res) => {
   try {
+    res.header("Access-Control-Allow-Origin", "*"); // Allow any origin to access the resource
     const users = await User.findAll();
     res.status(200).json(users);
   } catch (error) {
+    res.header("Access-Control-Allow-Origin", "*"); // Allow any origin to access the resource
     console.error(error);
     res.status(500).json({ message: "Internal Server Error" });
   }

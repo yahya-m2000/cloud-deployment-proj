@@ -5,8 +5,8 @@ const api = require("./routes");
 const app = express();
 
 app.use(express.json());
-app.use("/message", api.message);
-app.use("/user", api.user);
+app.use("/messages", api.message);
+app.use("/users", api.user);
 app.use(cors());
 
 app.get("/ping", (req, res) => {
