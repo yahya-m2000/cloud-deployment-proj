@@ -23,3 +23,7 @@
 > npm run dev (server)
 
 > npm start (client)
+
+```js
+console.log('hello world')
+```
